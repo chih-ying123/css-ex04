@@ -1,0 +1,38 @@
+@media (max-width: 991px) {}
+@media (min-width: 544px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+
+/*通用 ========================= 平板以下 (手機、平板)*/
+@media only screen and (max-width : 767px){
+
+/*通用 ========================= 手機*/
+@media only screen and (max-width : 480px) {}
+
+/*通用 ========================= 小型手機*/
+@media only screen and (max-width : 320px){}
+
+/*iPhone 6 landscape橫式*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {}
+
+/*iPhone 6 portrait直式*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {}
+
+/*iPhone 5 & 5S landscape橫式*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {}
+
+/*iPhone 5 & 5S portrait直式*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {}
+
+
+/*iPad in landscape 橫式*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+/*iPad in portrait 直式*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}
+/*iPad Pro in landscape 橫式*/
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape){}
+/*iPad Pro in portrait 直式*/
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : portrait){}
+/*iphone X 橫式*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (orientation : landscape){}

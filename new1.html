@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel ="stylesheet" href ="css/flexslider.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src ="js/jquery.min.js"> </script>
+    <script src ="js/jquery.flexslider.js"> </script>
+    <title>練習4呦</title>
+</head>
+<body>
+    <div class="flexslider">
+        <ul class ="slides">
+            <li>
+                <a href="#"><img src ="images/cm/Index_AD_01.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src ="images/cm/Index_AD_02.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src ="images/cm/Index_AD_03.jpg"></a>
+            </li>
+          </ul>
+    </div>
+
+    <div class="centent">
+        <div class="box">
+
+            <div class="box_title">
+                <div class="left">
+                    <p>鑫寶會員您好</p>
+                </div>
+                <div class="right">
+                    <img src="images/index_icon/marquee.png" >
+                    <marquee direction="left" >
+                        親愛的會員您好：本行資訊為跑馬燈　我是跑馬燈 我是跑馬燈　跑馬燈燈燈燈燈
+                    </marquee>
+                </div>
+            </div>
+
+            <div class="member_info">
+                <div class="mem member">
+                    <img src="images/index_icon/member.png" >
+                    帳號: <span style="color:rgb(41, 128, 243); letter-spacing: 2px;">alita888</span>       
+                </div>
+                <div class="line"></div>
+                <div class="mem wallet">
+                    <img src="images/index_icon/wallet.png" >
+                    錢包: <span style="color:rgb(41, 128, 243)">5201314569</span>
+                </div>
+            </div>
+
+            <div class="nav">
+                <a href="#" class="icon_item">
+                    <div class="icon">
+                        <img src="images/index_icon/icon_discussion.png">
+                    </div>
+                    <p>論壇</p>
+                </a>
+                <a href="#" class="icon_item">
+                    <div class="icon">
+                        <img src="images/index_icon/icon_news.png">
+                    </div>
+                    <p>公告</p>
+                </a>
+                <a href="#" class="icon_item">
+                    <div class="icon">
+                        <img src="images/index_icon/icon_member_info.png">
+                    </div>
+                    <p>條款</p>
+                </a>
+                <a href="#" class="icon_item">
+                    <div class="icon">
+                        <img src="images/index_icon/icon_promotions.png">
+                    </div>
+                    <p>優惠</p>
+                </a>
+                <a href="#" class="icon_item">
+                    <div class="icon">
+                        <img src="images/index_icon/icon_service.png">
+                    </div>
+                    <p>客服</p>
+                </a>
+            </div>
+
+        </div>
+    
+        <div class="event">
+            <div class="col-6 left">
+                <a href="#"><img src="images/index_icon/sport.jpg"></a>
+            </div>
+            <div class="col-6">
+                <a href=""><img src="images/index_icon/lottery.jpg"></a>
+                <a href=""><img src="images/index_icon/live.jpg"></a>
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="col-6 left">
+                <a href=""><img src="images/index_icon/slot_game.jpg"></a>
+            </div>
+            <div class="col-6">
+                <a href=""><img src="images/index_icon/movie.jpg"></a>
+            </div>
+        </div>
+
+        <div class="event">
+            <a href=""><img src="images/index_icon/coparnership.jpg"></a>
+        </div>
+    
+
+        <div class="footer">
+
+            <a href="#">
+                <img src="images/index_icon/icon_home.png">
+                <p>首頁</p>
+            </a> 
+            <a href="#">
+                <img src="images/index_icon/icon_point.png">
+                <p>點數</p>
+            </a>
+            <a href="#">
+                <img src="images/index_icon/icon_member.png">
+                <p>會員</p>
+            </a>
+            <a href="#">
+                <img src="images/index_icon/icon_prepaid.png">
+                <p>儲值</p>
+            </a>
+            <a href="#">
+                <img src="images/index_icon/icon_sales.png">
+                <p>托售</p>
+            </a>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" charset="utf-8">
+        $(function() {
+            $(".flexslider").flexslider({
+                animation: "slide",  //"fade" or "slide" 圖片播放方式：淡入淡出或者滑動
+                slideshowSpeed: 2500, //每個間隔時間(毫秒)
+                pauseOnHover: true,  //滑鼠滑向內容時，是否暫停滾動
+                directionNav: false,  //是否顯示左右控制按钮
+                mousewheel: true,   //滑鼠滾輪控制圖片滑動
+            });
+        }); 
+       
+      </script>
+</body>
+</html>
