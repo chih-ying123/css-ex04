@@ -122,7 +122,7 @@
 .slick-dots
 {
     position: absolute;
-    top: 65%;
+    top: 55%;
 
     display: block;
 
@@ -178,7 +178,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 6px;
+    font-size: 4px;
     line-height: 20px;
 
     position: absolute;
