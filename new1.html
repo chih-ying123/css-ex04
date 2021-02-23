@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel ="stylesheet" href ="css/flexslider.css">
+    <link rel ="stylesheet" href ="css/slick.css">
+    <link rel ="stylesheet" href ="css/slick-theme.css">
     <link rel="stylesheet" href="css/main.css">
     <script src ="js/jquery.min.js"> </script>
-    <script src ="js/jquery.flexslider.js"> </script>
+    <script src ="js/slick.js"> </script>
     <title>練習4呦</title>
 </head>
 <body>
-    <div class="flexslider">
+    
         <ul class ="slides">
             <li>
                 <a href="#"><img src ="images/cm/Index_AD_01.jpg"></a>
@@ -23,8 +24,14 @@
             <li>
                 <a href="#"><img src ="images/cm/Index_AD_03.jpg"></a>
             </li>
-          </ul>
-    </div>
+            <li>
+                <a href="#"><img src ="images/cm/Index_AD_04.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src ="images/cm/Index_AD_05.jpg"></a>
+            </li>
+        </ul>
+    
 
     <div class="centent">
         <div class="box">
@@ -139,15 +146,20 @@
     </div>
 
     <script type="text/javascript" charset="utf-8">
-        $(function() {
-            $(".flexslider").flexslider({
-                animation: "slide",  //"fade" or "slide" 圖片播放方式：淡入淡出或者滑動
-                slideshowSpeed: 2500, //每個間隔時間(毫秒)
-                pauseOnHover: true,  //滑鼠滑向內容時，是否暫停滾動
-                directionNav: false,  //是否顯示左右控制按钮
-                mousewheel: true,   //滑鼠滾輪控制圖片滑動
+        
+        $(document).ready(function(){
+            $('.slides').slick({
+                // centerMode:true,
+                // centerPadding: '100px',
+                
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,  
+                dots: true,
+                arrows: false,
             });
-        }); 
+        });
        
       </script>
 </body>

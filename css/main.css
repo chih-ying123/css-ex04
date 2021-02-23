@@ -7,8 +7,7 @@ body{
 
 .slides img{
     width: 100%;
-    border: none;
-}
+} 
 .centent{
     position: absolute;
     top: 25%;
@@ -41,7 +40,8 @@ body{
     background-size: 100% 90%;
 }
 .box_title .right img{
-    padding: 10px;
+  /*  width: 100%;
+    padding: 10px;*/
 }
 
 .member_info{
@@ -197,6 +197,40 @@ body{
     }
     .footer img{
         padding: 0 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    body{
+        font-size: 12px;
+    }
+    .box_title{
+        height: 40px;
+        line-height: 40px;
+    }
+    .box_title .left{
+        padding: 0  0 0 12px;
+    }
+    .box_title .right{
+        width: 70%;
+        padding: 0 12px 0 20px;
+    }
+    .member_info{
+        padding: 0px 12px;
+    }
+    .member_info .mem img{
+        width: 15%;
+        padding: 3px;
+    }
+    .member_info .line {
+        height: 15px;
+        border-left: 1px solid #555;
+    }
+    .nav {
+        padding: 0 10px;
+    }
+    .icon_item{
+        margin: 5px 2px;
     }
 }
 
