@@ -102,11 +102,15 @@ body{
     width: 100%;
     border-radius: 20px;
 }
+.events{
+    margin-bottom: 20%;
+}
 .footer {
+    position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: space-around;
-    padding: 20px 0;
-    margin-top: 20px;
+    padding: 10px 0;
     background-color: #074b7c;
 }
 .footer a{
@@ -114,7 +118,7 @@ body{
     color: #fff;
 }
 .footer img{
-    padding: 0 30px;
+    padding: 0 40px;
 }
 
 @media (max-width: 768px) {
@@ -145,7 +149,7 @@ body{
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 508px) {
     body{
         font-size: 14px;
     }
